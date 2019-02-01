@@ -16,49 +16,103 @@
   </head>
 
   <body>
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-           <a class="navbar-brand" href=".">Navbar</a>
-           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-           </button>
 
-           <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-             <ul class="navbar-nav mr-auto">
-               <li class="nav-item active">
-                 <a class="nav-link" href=".">Home <span class="sr-only">(current)</span></a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link" href="#">Link</a>
-               </li>
-               <li class="nav-item">
-                 <a class="nav-link disabled" href="#">Disabled</a>
-               </li>
-               <li class="nav-item dropdown">
-                 <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                   <a class="dropdown-item" href="#">Action</a>
-                   <a class="dropdown-item" href="#">Another action</a>
-                   <a class="dropdown-item" href="#">Something else here</a>
-                 </div>
-               </li>
-             </ul>
-             <form class="form-inline my-2 my-lg-0">
-               <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-             </form>
-           </div>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Montserrat');
+    </style>
+
+    <div class="container">
+      
+      <div class="topo">
+        <img src="assets/img/logo.svg">    
+        <img src="assets/img/espinho.svg">
+      </div>
+
+      <div class="menu">
+        <nav class="d-inline-flex "> 
+          <ul class="nav justify-content-center align-content-center">
+            <li class="nav-item menu__icon">
+              <img src="assets/img/lupa.svg">
+              <a class="nav-link d-inline-flex">Pesquisa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Contato</a>
+            </li>
+            <li class="nav-item menu__icon2">
+              <img src="assets/img/cart.svg">
+              <a class="nav-link d-inline-flex">Cart</a>
+            </li>
+          </ul>
         </nav>
+      </div>
 
-         <div class="container">
+      <div class="hero">  
+        <div class="row">
+          <div class="col-sm-12 col-md-4">
+            <h1>Cultive amor!</h1>
+            <img src="assets/img/icon-separador.svg">
+            <p>Porque o inverno já passou, a chuva acabou e foi. As flores nascem e chega o tempo do canto dos pássaros.</p>
+          </div>
+          <div class="col-sm-12 col-md-8 hero__foto">
+            <img src="assets/img/foto-hero.png">
+          </div>
+        </div>
+      </div>
 
-           <div style="padding-top:120px; text-align:center;">
-                <h1>Hello world!</h1>
-                <p class="lead">Remove this content or build upon it.<br>
-                For documentation and examples: <a href="http://getbootstrap.com/" target="_blank">getbootstrap.com</a><br>
-                Here is a <a href="newpage.html">link to another page</a></p>
-           </div>
+      <div class="shop">
+        <div class="row">
+          <div class="col-md-7">
+            <img src="#">
+          </div>
+          <div class="col-md-4 end">
+            <img src="assets/img/icon-shop.svg">
+            <h3>Bem-vindo a nossa nova loja.</h3>
+            <p>Somos apaixonados por Cactos e Suculentas. Com todo carinho cuidamos de todas as espécies dessa linda planta, que contem um significado encantador. Receber uma flor, um cacto, ou suculenta, torna os momentos especiais e inesquecíveis. Entregamos para você esta linda experiência.</p>
+            <button class="btn btn-primary" type="submit">Comprar</button>
+          </div>
+        </div>
+      </div>
 
-         </div>
+      <div class="produtos">
+        <h3>Produtos em destaque</h3>
+        <div class="card-deck">
+          <div class="card">
+            <img class="card-img-top" src=".../100px200/" alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">Título do card</h5>
+              <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+              <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src=".../100px200/" alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">Título do card</h5>
+              <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+              <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src=".../100px200/" alt="Imagem de capa do card">
+            <div class="card-body">
+              <h5 class="card-title">Título do card</h5>
+              <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+              <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>  
 
     <!-- build:js -->
     <script src="assets/js/main.js"></script>

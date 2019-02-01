@@ -17,3 +17,72 @@
 
 // 5 - Import layout  styles
 @import '5-layout/index';
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 76px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 46px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 36px;
+    color: #C68080;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 28px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.topo {
+    display: block;    
+}
+
+.menu {
+    &__icon{
+        margin-right: 200px;
+    }
+
+    &__icon2 {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (min-width:801px max-width: 1100px) {
+    .menu
+    &__icon {
+        margin-right: 100px;
+    }
+
+    &__icon2 {
+        margin-left: 100px;
+    }   
+}
+
+@media screen and (max-width: 800px) {
+    .menu
+    &__icon {
+        margin-right: 0;
+    }
+
+    &__icon2 {
+        margin-left: 0;
+    }   
+}

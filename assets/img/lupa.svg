@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_10" data-name="Rectangle 10" width="24" height="24" transform="translate(1224 68)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-1224 -68)" clip-path="url(#clip-path)">
+    <g id="magnification-lens" transform="translate(1224 68)">
+      <g id="Magnifying_x5F_Glass">
+        <g id="Group_516" data-name="Group 516">
+          <path id="Path_651" data-name="Path 651" d="M15.374.012A8.6,8.6,0,0,0,7.9,12.915L.659,20.151a2.248,2.248,0,0,0,3.18,3.178l7.244-7.236A8.616,8.616,0,1,0,15.374.012ZM2.78,22.269a.749.749,0,1,1-1.061-1.059l7.054-7.048a8.8,8.8,0,0,0,1.06,1.06Zm12.594-6.524A7.118,7.118,0,1,1,22.5,8.628,7.129,7.129,0,0,1,15.374,15.746ZM19.321,4.583A.75.75,0,0,0,18.26,5.642a4.227,4.227,0,0,1,0,5.971.75.75,0,0,0,1.061,1.059A5.722,5.722,0,0,0,19.321,4.583Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

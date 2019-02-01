@@ -7749,5 +7749,32 @@ html {
 
 /* Custom Mixins -------------------- */
 /* Base Styles -------------------- */
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+.logo-topo {
+  background-image: url(/img/logo.svg);
+  align-items: center; }
+
+.menu {
+  display: inline;
+  justify-content: center;
+  align-content: center; }
+  .menu__icon {
+    margin-right: 280px; }
+  .menu__icon2 {
+    margin-left: 280px; }
+
+@media screen and (max-width: 991.98px) {
+  .menu__icon {
+    margin-right: 160px; }
+  .menu__icon2 {
+    margin-left: 160px; } }
+
+@media screen and (max-width: 767.98px) {
+  .menu__icon {
+    margin-right: 0; }
+  .menu__icon2 {
+    margin-left: 0; } }
 
 /*# sourceMappingURL=main.css.map */
